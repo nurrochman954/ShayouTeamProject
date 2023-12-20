@@ -8,8 +8,6 @@ CREATE TABLE users
 	status VARCHAR(MAX) NULL,
 	date_reg DATE NULL
 )
-﻿
-
 INSERT INTO users (username, password, profile_image, role, status, date_reg) VALUES('admin','admin954','','Admin','Active','2023-12-1')
 
 CREATE TABLE products
