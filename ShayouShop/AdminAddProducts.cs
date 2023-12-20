@@ -91,8 +91,8 @@ namespace ShayouShop
                             else
                             {
                                 string insertData = "INSERT INTO products (prod_id, prod_name, prod_type, " +
-                                    "prod_stock, prod_price, prod_status, prod_image, date_insert) VALUES(@prodID, @prodName" +
-                                    ", @prodType, @prodStock, @prodPrice, @prodStatus, @prodImage, @dateInsert)";
+                                    "prod_stock, prod_price, prod_status, date_insert) VALUES(@prodID, @prodName" +
+                                    ", @prodType, @prodStock, @prodPrice, @prodStatus, @dateInsert)";
 
                                 DateTime today = DateTime.Today;
 
