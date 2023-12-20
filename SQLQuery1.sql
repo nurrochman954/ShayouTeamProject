@@ -9,6 +9,7 @@ CREATE TABLE users
 	date_reg DATE NULL
 )
 INSERT INTO users (username, password, profile_image, role, status, date_reg) VALUES('admin','admin954','','Admin','Active','2023-12-1')
+INSERT INTO users (username, password, profile_image, role, status, date_reg) VALUES('kasir','kasir954','','Cashier','Active','2023-12-1')
 
 CREATE TABLE products
 (
